@@ -16,6 +16,8 @@ fs.readFile('in.txt', 'utf8', function (err, data) {
     data = data.replace(/ > /g, ">");
     data = data.replace(/>/g, " > ");
     data = data.replace(/-/g, "- ");
+    data = data.replace(/“/g, "“ ");
+    data = data.replace(/”/g, " ”");
 
     fs.writeFile('out.txt', data, function (err) {
         if (err) {
