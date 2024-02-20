@@ -1,4 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
+; https://www.autohotkey.com/
 ; ^{Ctrl} +{Shift} !{Alt} #{LWin}
 
 ; LAlt::LCtrl
